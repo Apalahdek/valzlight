@@ -5,16 +5,14 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Docs - Valzy',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				youtube: 'https://youtube.com/@valzyofc',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+					label: 'tutorial sczura',
+					autogenerate: { directory: 'tutorial' },
 					],
 				},
 				{
