@@ -13,7 +13,6 @@ export default defineConfig({
 				{
 					label: 'tutorial sczura',
 					autogenerate: { directory: 'tutorial' },
-					],
 				},
 				{
 					label: 'Reference',
